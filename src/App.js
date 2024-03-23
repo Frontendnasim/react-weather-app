@@ -9,7 +9,11 @@ export default function App() {
         <Weather defaultCity="New York" />
         <footer>
           This project was coded by{" "}
-          <a href="https://github.com/Frontendnasim" target="_blank">
+          <a
+            href="https://github.com/Frontendnasim"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Nasim Shiroodi
           </a>{" "}
           and is{" "}
