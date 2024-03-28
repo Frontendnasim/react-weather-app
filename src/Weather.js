@@ -13,13 +13,13 @@ export default function Weather(props) {
     setWeatherData({
       ready: true,
       coordinates: response.data.coordinates,
-      temperature: response.data.temperature.current,
-      wind: response.data.wind.speed,
+      temperature: response.data.daily[0].temperature.day,
+      wind: response.data.daily[0].wind.speed,
       city: response.data.city,
-      description: response.data.condition.description,
-      humidity: response.data.temperature.humidity,
-      date: new Date(response.data.time * 1000),
-      icon: response.data.condition.icon,
+      description: response.data.daily[0].condition.description,
+      humidity: response.data.daily[0].temperature.humidity,
+      date: new Date(response.data.daily[0].time * 1000),
+      icon: response.data.daily[0].condition.icon,
     });
   }
 
