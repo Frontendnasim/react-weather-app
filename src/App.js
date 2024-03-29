@@ -23,8 +23,12 @@ export default function App() {
           >
             open-sourced on Github
           </a>{" "}
-          and
-          <a href="https://react-weather-app-green-phi.vercel.app" target="_blank" rel="noopener noreferrer">
+          and{" "}
+          <a
+            href="https://react-weather-app-green-phi.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             hosted on Vercel
           </a>
         </footer>
