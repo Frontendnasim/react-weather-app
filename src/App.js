@@ -17,8 +17,15 @@ export default function App() {
             Nasim Shiroodi
           </a>{" "}
           and is{" "}
-          <a href="https://github.com/Frontendnasim/react-weather-app">
+          <a
+            href="https://github.com/Frontendnasim/react-weather-app"
+            rel="noopener noreferrer"
+          >
             open-sourced on Github
+          </a>{" "}
+          and
+          <a href="" target="_blank" rel="noopener noreferrer">
+            hosted on Vercel
           </a>
         </footer>
       </div>
