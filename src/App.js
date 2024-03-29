@@ -24,7 +24,7 @@ export default function App() {
             open-sourced on Github
           </a>{" "}
           and
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a href="#" target="_blank" rel="noopener noreferrer">
             hosted on Vercel
           </a>
         </footer>
