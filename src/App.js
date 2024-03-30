@@ -19,6 +19,7 @@ export default function App() {
           and is{" "}
           <a
             href="https://github.com/Frontendnasim/react-weather-app"
+            target="_blank"
             rel="noopener noreferrer"
           >
             open-sourced on Github
